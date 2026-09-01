@@ -82,7 +82,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { label: 'Call Us', value: '+254 796 476 637', sub: 'Mon-Fri from 8am to 6pm', icon: 'ri-phone-line', href: 'tel:+254796476637' },
+              { label: 'Call Us', value: '+254 702 601 384', sub: 'Mon-Fri from 8am to 6pm', icon: 'ri-phone-line', href: 'tel:+254796476637' },
               { label: 'Email Us', value: 'hello@AlphaMarkshomes.com', sub: 'We reply within 24 hours', icon: 'ri-mail-line', href: 'mailto:hello@AlphaMarkshomes.com' },
               { label: 'Visit Us', value: 'Riverside Drive', sub: 'Nairobi, Kenya', icon: 'ri-map-pin-line', href: '#' },
               { label: 'Business Hours', value: 'Mon - Fri: 8:30 AM - 4:30 PM', sub: 'Sat: 9:00 AM - 2:00 PM', icon: 'ri-time-line', href: '#' },

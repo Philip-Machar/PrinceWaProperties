@@ -214,7 +214,7 @@ export const coreValues = [
 export const contactInfo = [
   {
     label: 'Phone',
-    value: '+254 796 476 637',
+    value: '+254 702 601 384',
     href: 'tel:+254796476637',
     icon: 'ri-phone-line',
   },
@@ -265,7 +265,7 @@ export const offices: Office[] = [
   {
     city: 'Nairobi',
     address: 'Riverside Drive',
-    phone: '+254 796 476 637',
+    phone: '+254 702 601 384',
     email: 'info@AlphaMarkshomes.com',
     isHQ: true,
   },
