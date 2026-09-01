@@ -37,18 +37,18 @@
     --foreground-900: 0.20 0.09 250;
     --foreground-950: 0.15 0.02 250;
 
-    /* Primary - Rich blue */
-    --primary-50: 0.95 0.02 245;
-    --primary-100: 0.90 0.05 245;
-    --primary-200: 0.85 0.08 245;
-    --primary-300: 0.75 0.12 245;
-    --primary-400: 0.65 0.16 245;
-    --primary-500: 0.55 0.18 245;
-    --primary-600: 0.48 0.16 245;
-    --primary-700: 0.40 0.14 245;
-    --primary-800: 0.32 0.12 245;
-    --primary-900: 0.24 0.10 245;
-    --primary-950: 0.18 0.08 245;
+    /* Primary - Rich purple (Changed from blue) */
+    --primary-50: 0.95 0.02 290;
+    --primary-100: 0.90 0.05 290;
+    --primary-200: 0.85 0.08 290;
+    --primary-300: 0.75 0.12 290;
+    --primary-400: 0.65 0.16 290;
+    --primary-500: 0.55 0.18 290;
+    --primary-600: 0.48 0.16 290;
+    --primary-700: 0.40 0.14 290;
+    --primary-800: 0.32 0.12 290;
+    --primary-900: 0.24 0.10 290;
+    --primary-950: 0.18 0.08 290;
     --primary-foreground: 0.99 0.005 85;
 
     /* Accent - Vibrant Logo Yellow */
@@ -120,17 +120,17 @@
     --foreground-900: 0.95 0.01 250;
     --foreground-950: 0.98 0 0;
 
-    --primary-500: 0.62 0.20 245;
-    --primary-400: 0.72 0.18 245;
-    --primary-600: 0.54 0.18 245;
-    --primary-300: 0.80 0.16 245;
-    --primary-200: 0.87 0.12 245;
-    --primary-100: 0.92 0.08 245;
-    --primary-50: 0.96 0.04 245;
-    --primary-700: 0.47 0.16 245;
-    --primary-800: 0.40 0.14 245;
-    --primary-900: 0.32 0.12 245;
-    --primary-950: 0.24 0.10 245;
+    --primary-500: 0.62 0.20 290;
+    --primary-400: 0.72 0.18 290;
+    --primary-600: 0.54 0.18 290;
+    --primary-300: 0.80 0.16 290;
+    --primary-200: 0.87 0.12 290;
+    --primary-100: 0.92 0.08 290;
+    --primary-50: 0.96 0.04 290;
+    --primary-700: 0.47 0.16 290;
+    --primary-800: 0.40 0.14 290;
+    --primary-900: 0.32 0.12 290;
+    --primary-950: 0.24 0.10 290;
     --primary-foreground: 0.15 0.02 250;
 
     /* Accent - vibrant yellow for dark */

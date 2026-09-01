@@ -14,10 +14,10 @@ interface SEOProps {
 export default function SEO({ 
   title, 
   description, 
-  name = "Sedidy Homes", 
+  name = "AlphaMarks RealEstates", 
   type = "website", 
-  image = "https://static.readdy.ai/image/fe5858082443eeff1e1c88cf3b867878/edd0819509b061b2db54eb05bd38ce9d.webp", 
-  url = "https://www.sedidyhomes.com", 
+  image = "/logo.jpg", 
+  url = "https://www.AlphaMarkshomes.com", 
   schema 
 }: SEOProps) {
   return (
@@ -35,7 +35,7 @@ export default function SEO({
       <meta property="og:image" content={image} />
 
       {/* Twitter tags */}
-      <meta name="twitter:creator" content="@SedidyHomes" />
+      <meta name="twitter:creator" content="@AlphaMarksHomes" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />

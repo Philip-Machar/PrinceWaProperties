@@ -11,12 +11,12 @@ import Testimonials from './components/Testimonials';
 import FadeInScroll from '@/components/base/FadeInScroll';
 
 export default function Home() {
-  // Define Sedidy Homes as a local real estate business to Google
+  // Define AlphaMarks RealEstates as a local real estate business to Google
   const schema = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
-    "name": "Sedidy Homes",
-    "image": "https://static.readdy.ai/image/fe5858082443eeff1e1c88cf3b867878/edd0819509b061b2db54eb05bd38ce9d.webp",
+    "name": "AlphaMarks RealEstates",
+    "image": "/logo.jpg",
     "description": "Nairobi's premier real estate agency specializing in luxury properties in Karen, Runda, Westlands, and Kilimani.",
     "address": {
       "@type": "PostalAddress",
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background-50">
       <SEO 
-        title="Sedidy Homes | Luxury Real Estate in Nairobi (Karen, Runda, Westlands, Kilimani, Lavington)"
+        title="AlphaMarks RealEstates | Luxury Real Estate in Nairobi (Karen, Runda, Westlands, Kilimani, Lavington)"
         description="Discover premium apartments, villas, and mansions for rent and sale in Nairobi's most prestigious neighbourhoods, including Karen, Runda, Kilimani, and Westlands."
         schema={schema}
       />

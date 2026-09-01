@@ -6,7 +6,6 @@ const navLinks = [
   { label: 'Properties', href: '/properties' },
   { label: 'About Us', href: '/about' },
   { label: 'Services', href: '/services' },
-  { label: 'Insights', href: '/blog' },
   { label: 'Contact', href: '/contact' },
 ];
 
@@ -28,15 +27,15 @@ export default function Navbar() {
           <a className="flex items-center gap-3 shrink-0 group" href="/">
             <div className="w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden border-2 border-white shadow-sm bg-transparent flex items-center justify-center shrink-0 transition-transform duration-500 group-hover:scale-105">
               <img
-                src="https://static.readdy.ai/image/fe5858082443eeff1e1c88cf3b867878/edd0819509b061b2db54eb05bd38ce9d.webp"
-                alt="Sedidy Homes"
+                src="/logo.jpg"
+                alt="AlphaMarks RealEstates"
                 width={40}
                 height={40}
                 className="object-cover w-full h-full"
               />
             </div>
             <span className="font-heading font-bold text-base md:text-xl whitespace-nowrap text-foreground-950 tracking-tight">
-              Sedidy Homes
+              AlphaMarks RealEstates
             </span>
           </a>
 

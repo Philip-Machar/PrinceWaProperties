@@ -16,11 +16,11 @@ export const applyWatermark = (file: File): Promise<File> => {
       // 1. Draw the original uploaded image onto the canvas
       ctx.drawImage(img, 0, 0);
 
-      // 2. Load the Sedidy Homes logo
+      // 2. Load the AlphaMarks RealEstates logo
       const logo = new Image();
       // Required to prevent canvas CORS security errors when exporting
       logo.crossOrigin = "anonymous"; 
-      logo.src = "https://static.readdy.ai/image/fe5858082443eeff1e1c88cf3b867878/edd0819509b061b2db54eb05bd38ce9d.webp";
+      logo.src = "/logo.jpg";
       
       logo.onload = () => {
         // Make the logo responsive, but slightly larger so it's readable

@@ -11,7 +11,7 @@ export default function AdminDashboard() {
     {
       category: 'Property Portfolio',
       items: [
-        { title: 'Upload Property', desc: 'Add a new listing to the catalog', icon: 'ri-upload-cloud-2-line', path: '/admin/upload-property', color: 'text-blue-500', bg: 'bg-blue-50 dark:bg-blue-500/10' },
+        { title: 'Upload Property', desc: 'Add a new listing to the catalog', icon: 'ri-upload-cloud-2-line', path: '/admin/upload-property', color: 'text-purple-500', bg: 'bg-purple-50 dark:bg-purple-500/10' },
         { title: 'Manage Listings', desc: 'Edit or remove active properties', icon: 'ri-building-4-line', path: '/admin/manage-listings', color: 'text-indigo-500', bg: 'bg-indigo-50 dark:bg-indigo-500/10' },
         { title: 'Review Pending', desc: 'Approve user-submitted listings', icon: 'ri-checkbox-multiple-line', path: '/admin/review-listings', color: 'text-emerald-500', bg: 'bg-emerald-50 dark:bg-emerald-500/10' },
       ]

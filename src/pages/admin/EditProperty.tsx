@@ -249,7 +249,7 @@ export default function EditProperty() {
                 <div className="space-y-4">
                   
                   {/* Image Note */}
-                  <div className="p-4 bg-blue-50 text-blue-700 text-sm rounded-xl mb-4 border border-blue-100">
+                  <div className="p-4 bg-purple-50 text-purple-700 text-sm rounded-xl mb-4 border border-purple-100">
                     <i className="ri-information-fill mr-1"></i> 
                     <strong>Note:</strong> Leave the file upload blank to keep the current images. Uploading new images will replace the existing ones.
                   </div>

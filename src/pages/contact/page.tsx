@@ -83,7 +83,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { label: 'Call Us', value: '+254 796 476 637', sub: 'Mon-Fri from 8am to 6pm', icon: 'ri-phone-line', href: 'tel:+254796476637' },
-              { label: 'Email Us', value: 'hello@sedidyhomes.com', sub: 'We reply within 24 hours', icon: 'ri-mail-line', href: 'mailto:hello@sedidyhomes.com' },
+              { label: 'Email Us', value: 'hello@AlphaMarkshomes.com', sub: 'We reply within 24 hours', icon: 'ri-mail-line', href: 'mailto:hello@AlphaMarkshomes.com' },
               { label: 'Visit Us', value: 'Riverside Drive', sub: 'Nairobi, Kenya', icon: 'ri-map-pin-line', href: '#' },
               { label: 'Business Hours', value: 'Mon - Fri: 8:30 AM - 4:30 PM', sub: 'Sat: 9:00 AM - 2:00 PM', icon: 'ri-time-line', href: '#' },
             ].map((info) => (
@@ -278,7 +278,7 @@ export default function ContactPage() {
               {/* Map */}
               <div className="mt-auto rounded-[2.5rem] overflow-hidden border-4 border-white dark:border-card shadow-[0_20px_40px_rgba(0,0,0,0.08)] bg-white h-[320px]">
                 <iframe
-                  title="Sedidy Homes Location"
+                  title="AlphaMarks RealEstates Location"
                   src="https://maps.google.com/maps?q=Riverside%20Drive,%20Nairobi&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
@@ -354,7 +354,7 @@ export default function ContactPage() {
                   +254 (796) 476 637
                 </a>
                 <a
-                  href="mailto:hello@sedidyhomes.com"
+                  href="mailto:hello@AlphaMarkshomes.com"
                   className="inline-flex items-center gap-3 px-10 py-4 bg-white/10 text-white border border-white/20 text-[11px] font-bold uppercase tracking-[0.2em] rounded-full hover:bg-white/20 transition-all hover:-translate-y-1"
                 >
                   <i className="ri-mail-line text-lg" />

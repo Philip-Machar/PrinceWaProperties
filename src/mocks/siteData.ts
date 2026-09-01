@@ -53,7 +53,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Peter Njoroge',
     role: 'Founder & CEO',
     image: 'https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20an%20African%20businessman%20in%20his%2040s%20wearing%20a%20navy%20blue%20suit%20with%20a%20subtle%20smile%2C%20clean%20neutral%20studio%20background%2C%20soft%20professional%20lighting%2C%20corporate%20headshot%20style%2C%20warm%20skin%20tones&width=400&height=400&seq=team-peter-01&orientation=squarish',
-    bio: 'With over 15 years in Kenyan real estate, Peter founded Sedidy Homes with a vision to transform property transactions through transparency and client-first service.',
+    bio: 'With over 15 years in Kenyan real estate, Peter founded AlphaMarks RealEstates with a vision to transform property transactions through transparency and client-first service.',
   },
   {
     id: 'tm2',
@@ -164,7 +164,7 @@ export const timelineItems: TimelineItem[] = [
   {
     year: '2009',
     title: 'Founded in Nairobi',
-    description: 'Sedidy Homes was established with a vision to transform the real estate experience in Kenya.',
+    description: 'AlphaMarks RealEstates was established with a vision to transform the real estate experience in Kenya.',
   },
   {
     year: '2013',
@@ -256,7 +256,7 @@ export const faqItems: FaqItem[] = [
     answer: 'Our service fees vary depending on the type of service. For property sales, we charge a standard commission. For rentals and management, fees are competitive and clearly outlined in our agreement.',
   },
   {
-    question: 'Can I list my property with Sedidy Homes?',
+    question: 'Can I list my property with AlphaMarks RealEstates?',
     answer: 'Absolutely! We welcome property listings from owners across Kenya. Contact our team to discuss your property details, and we will handle marketing, viewings, and negotiations on your behalf.',
   },
 ];
@@ -266,7 +266,7 @@ export const offices: Office[] = [
     city: 'Nairobi',
     address: 'Riverside Drive',
     phone: '+254 796 476 637',
-    email: 'info@sedidyhomes.com',
+    email: 'info@AlphaMarkshomes.com',
     isHQ: true,
   },
 ];

@@ -12,15 +12,15 @@ export default function Footer() {
             <a className="flex items-center gap-3 shrink-0 group mb-6" href="/">
               <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-background-100 dark:border-white/10 shadow-sm bg-transparent flex items-center justify-center shrink-0 transition-transform duration-500 group-hover:scale-105">
                 <img
-                  src="https://static.readdy.ai/image/fe5858082443eeff1e1c88cf3b867878/edd0819509b061b2db54eb05bd38ce9d.webp"
-                  alt="Sedidy Homes"
+                  src="/logo.jpg"
+                  alt="AlphaMarks RealEstates"
                   width={40}
                   height={40}
                   className="object-cover w-full h-full"
                 />
               </div>
               <span className="font-heading font-bold text-2xl whitespace-nowrap text-foreground-950 tracking-tight">
-                Sedidy Homes
+                AlphaMarks RealEstates
               </span>
             </a>
             <p className="text-sm text-foreground-500 leading-relaxed max-w-sm mb-8 font-light">
@@ -28,11 +28,11 @@ export default function Footer() {
             </p>
             
             <div className="space-y-4">
-              <a href="mailto:hello@sedidyhomes.com" className="flex items-center gap-3 text-sm text-foreground-600 hover:text-primary-600 transition-colors group">
+              <a href="mailto:hello@AlphaMarkshomes.com" className="flex items-center gap-3 text-sm text-foreground-600 hover:text-primary-600 transition-colors group">
                 <div className="w-10 h-10 rounded-full bg-white dark:bg-white/5 border border-black/5 dark:border-white/10 flex items-center justify-center shrink-0 group-hover:bg-primary-500 group-hover:text-white group-hover:border-primary-500 transition-all duration-300 shadow-sm">
                   <i className="ri-mail-send-line text-lg" />
                 </div>
-                <span className="font-medium tracking-wide">hello@sedidyhomes.com</span>
+                <span className="font-medium tracking-wide">hello@AlphaMarkshomes.com</span>
               </a>
               <a href="tel:+254700000000" className="flex items-center gap-3 text-sm text-foreground-600 hover:text-primary-600 transition-colors group">
                 <div className="w-10 h-10 rounded-full bg-white dark:bg-white/5 border border-black/5 dark:border-white/10 flex items-center justify-center shrink-0 group-hover:bg-primary-500 group-hover:text-white group-hover:border-primary-500 transition-all duration-300 shadow-sm">
@@ -115,7 +115,7 @@ export default function Footer() {
         {/* Bottom Bar: Copyright & Socials */}
         <div className="pt-8 border-t border-black/5 dark:border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-xs text-foreground-400 text-center md:text-left font-light tracking-wide flex items-center justify-center md:justify-start gap-2 w-full md:w-auto">
-            © {currentYear} Sedidy Homes. All rights reserved.
+            © {currentYear} AlphaMarks RealEstates. All rights reserved.
           </p>
           
           <div className="flex items-center justify-center gap-3 w-full md:w-auto">
@@ -135,12 +135,12 @@ export default function Footer() {
               { 
                 icon: 'ri-facebook-fill', 
                 label: 'Facebook', 
-                href: 'https://www.facebook.com/p/Realtor-SedidyDidy-homes-100083258680948/' 
+                href: 'https://www.facebook.com/p/Realtor-AlphaMarksDidy-homes-100083258680948/' 
               },
               { 
                 icon: 'ri-instagram-line', 
                 label: 'Instagram', 
-                href: 'https://www.instagram.com/sedidy_homes/' 
+                href: 'https://www.instagram.com/AlphaMarks_homes/' 
               }
             ].map((social) => (
               <a 

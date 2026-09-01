@@ -54,10 +54,10 @@ export default function PostPage() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Sedidy Homes",
+      "name": "AlphaMarks RealEstates",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://static.readdy.ai/image/fe5858082443eeff1e1c88cf3b867878/edd0819509b061b2db54eb05bd38ce9d.webp"
+        "url": "/logo.jpg"
       }
     },
     "datePublished": new Date(post.timestamp || post.date || Date.now()).toISOString(),
@@ -66,7 +66,7 @@ export default function PostPage() {
   return (
     <div className="min-h-screen bg-background-50">
       <SEO 
-        title={`${post.title} | Sedidy Homes Insights`}
+        title={`${post.title} | AlphaMarks RealEstates Insights`}
         description={post.excerpt}
         image={post.image}
         type="article"
