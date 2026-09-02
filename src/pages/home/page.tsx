@@ -24,7 +24,7 @@ export default function Home() {
       "addressLocality": "Nairobi",
       "addressCountry": "KE"
     },
-    "telephone": "+254796476637",
+    "telephone": "702601384",
     "url": "https://www.kenyaclassichomes.com"
   });
 

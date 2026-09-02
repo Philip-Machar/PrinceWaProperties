@@ -215,7 +215,7 @@ export const contactInfo = [
   {
     label: 'Phone',
     value: '+254 702 601 384',
-    href: 'tel:+254796476637',
+    href: 'tel:702601384',
     icon: 'ri-phone-line',
   },
   {
