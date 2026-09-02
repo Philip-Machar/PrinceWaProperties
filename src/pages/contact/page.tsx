@@ -37,7 +37,7 @@ export default function ContactPage() {
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
     // Create the WhatsApp link (removing the + sign from the number for the API)
-    const whatsappUrl = `https://wa.me/254796476637?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/254702601384?text=${encodedMessage}`;
 
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
