@@ -135,12 +135,12 @@ export default function Footer() {
               { 
                 icon: 'ri-facebook-fill', 
                 label: 'Facebook', 
-                href: 'https://www.facebook.com/p/Realtor-AlphaMarksDidy-homes-100083258680948/' 
+                href: 'https://www.facebook.com/alphamarksrealestates/' 
               },
               { 
                 icon: 'ri-instagram-line', 
                 label: 'Instagram', 
-                href: 'https://www.instagram.com/AlphaMarks_homes/' 
+                href: 'https://www.instagram.com/alphamarks_realestates/' 
               }
             ].map((social) => (
               <a 
