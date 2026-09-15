@@ -3,15 +3,25 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '@/components/feature/Navbar';
 import Footer from '@/components/feature/Footer';
+import { seedBlogDatabase } from '@/utils/seedBlog';
 
 export default function AdminDashboard() {
   const navigate = useNavigate();
+  const [seedingBlogs, setSeedingBlogs] = useState(false);
+
+  const handleSeedBlogs = async () => {
+    if (window.confirm("Are you sure you want to upload the 10 editorial articles to Firebase?")) {
+      setSeedingBlogs(true);
+      await seedBlogDatabase();
+      setSeedingBlogs(false);
+    }
+  };
 
   const adminModules = [
     {
       category: 'Property Portfolio',
       items: [
-        { title: 'Upload Property', desc: 'Add a new listing to the catalog', icon: 'ri-upload-cloud-2-line', path: '/admin/upload-property', color: 'text-purple-500', bg: 'bg-purple-50 dark:bg-purple-500/10' },
+        { title: 'Upload Property', desc: 'Add a new listing to the catalog', icon: 'ri-upload-cloud-2-line', path: '/admin/upload-property', color: 'text-blue-500', bg: 'bg-blue-50 dark:bg-blue-500/10' },
         { title: 'Manage Listings', desc: 'Edit or remove active properties', icon: 'ri-building-4-line', path: '/admin/manage-listings', color: 'text-indigo-500', bg: 'bg-indigo-50 dark:bg-indigo-500/10' },
         { title: 'Review Pending', desc: 'Approve user-submitted listings', icon: 'ri-checkbox-multiple-line', path: '/admin/review-listings', color: 'text-emerald-500', bg: 'bg-emerald-50 dark:bg-emerald-500/10' },
       ]
@@ -30,7 +40,6 @@ export default function AdminDashboard() {
       <Navbar />
       <div className="h-16 md:h-20" />
 
-      {/* Admin Hero */}
       <section className="relative overflow-hidden bg-primary-950 py-16 md:py-24">
         <div className="absolute top-[10%] right-[5%] w-72 h-72 bg-white/5 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -46,7 +55,6 @@ export default function AdminDashboard() {
         </div>
       </section>
 
-      {/* Modules Grid */}
       <section className="py-16 md:py-24 flex-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-16">
@@ -82,6 +90,21 @@ export default function AdminDashboard() {
               </div>
             ))}
           </div>
+
+          {/* TEMPORARY DEVELOPER TOOL */}
+          <div className="mt-20 pt-10 border-t border-black/5 text-center">
+            <button 
+              onClick={handleSeedBlogs}
+              disabled={seedingBlogs}
+              className="px-6 py-2 bg-purple-50 text-purple-600 border border-purple-200 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-purple-100 transition-colors disabled:opacity-50"
+            >
+              {seedingBlogs ? <><i className="ri-loader-4-line animate-spin mr-2" /> Seeding Articles...</> : <><i className="ri-article-line mr-2" /> Developer: Seed Articles (10)</>}
+            </button>
+            <p className="text-[10px] text-foreground-400 mt-4 max-w-md mx-auto">
+              Clicking this will upload the 10 pre-written articles directly to Firebase. Once complete, you can remove this button from the code.
+            </p>
+          </div>
+
         </div>
       </section>
 
