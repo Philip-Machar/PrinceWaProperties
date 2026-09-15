@@ -37,7 +37,7 @@ export default function ContactPage() {
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
     // Create the WhatsApp link (removing the + sign from the number for the API)
-    const whatsappUrl = `https://wa.me/254702601384?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/254757344593?text=${encodedMessage}`;
 
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
@@ -351,7 +351,7 @@ export default function ContactPage() {
                   className="inline-flex items-center gap-3 px-10 py-4 bg-white text-black text-[11px] font-bold uppercase tracking-[0.2em] rounded-full hover:bg-gray-100 transition-all shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] hover:-translate-y-1"
                 >
                   <i className="ri-phone-line text-lg" />
-                  +254 (796) 476 637
+                  +254 (757) 344 593
                 </a>
                 <a
                   href="mailto:hello@Prince homes.com"
