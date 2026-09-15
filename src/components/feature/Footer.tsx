@@ -135,12 +135,12 @@ export default function Footer() {
               { 
                 icon: 'ri-facebook-fill', 
                 label: 'Facebook', 
-                href: 'https://www.facebook.com/Prince realestates/' 
+                href: 'https://www.facebook.com/profile.php?id=61591653432227#' 
               },
               { 
                 icon: 'ri-instagram-line', 
                 label: 'Instagram', 
-                href: 'https://www.instagram.com/Prince _realestates/' 
+                href: 'https://www.instagram.com/prince_wa_properties/' 
               }
             ].map((social) => (
               <a 
