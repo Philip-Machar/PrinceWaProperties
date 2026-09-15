@@ -92,7 +92,7 @@ export default function AdminDashboard() {
           </div>
 
           {/* TEMPORARY DEVELOPER TOOL */}
-          <div className="mt-20 pt-10 border-t border-black/5 text-center">
+          {/* <div className="mt-20 pt-10 border-t border-black/5 text-center">
             <button 
               onClick={handleSeedBlogs}
               disabled={seedingBlogs}
@@ -103,7 +103,7 @@ export default function AdminDashboard() {
             <p className="text-[10px] text-foreground-400 mt-4 max-w-md mx-auto">
               Clicking this will upload the 10 pre-written articles directly to Firebase. Once complete, you can remove this button from the code.
             </p>
-          </div>
+          </div> */}
 
         </div>
       </section>
