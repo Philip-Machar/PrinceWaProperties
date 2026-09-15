@@ -214,7 +214,7 @@ export const coreValues = [
 export const contactInfo = [
   {
     label: 'Phone',
-    value: '+254 702 601 384',
+    value: '+254 757 344 593',
     href: 'tel:702601384',
     icon: 'ri-phone-line',
   },
@@ -265,7 +265,7 @@ export const offices: Office[] = [
   {
     city: 'Nairobi',
     address: 'Riverside Drive',
-    phone: '+254 702 601 384',
+    phone: '+254 757 344 593',
     email: 'info@Prince homes.com',
     isHQ: true,
   },
